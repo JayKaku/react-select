@@ -44,7 +44,7 @@ export const inputCSS = <
   paddingBottom: spacing.baseUnit / 2,
   paddingTop: spacing.baseUnit / 2,
   visibility: isDisabled ? 'hidden' : 'visible',
-  color: colors.neutral80,
+  color: colors.inputTextColor,
 });
 const inputStyle = (isHidden: boolean) => ({
   label: 'input',

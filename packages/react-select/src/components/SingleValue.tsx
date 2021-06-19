@@ -32,7 +32,7 @@ export const css = <
   theme: { spacing, colors },
 }: SingleValueProps<Option, IsMulti, Group>): CSSObjectWithLabel => ({
   label: 'singleValue',
-  color: isDisabled ? colors.neutral40 : colors.neutral80,
+  color: isDisabled ? colors.neutral40 : colors.inputTextColor,
   marginLeft: spacing.baseUnit / 2,
   marginRight: spacing.baseUnit / 2,
   maxWidth: `calc(100% - ${spacing.baseUnit * 2}px)`,

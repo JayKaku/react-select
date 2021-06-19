@@ -58,7 +58,7 @@ export const css = <
   transition: 'all 100ms',
 
   '&:hover': {
-    borderColor: isFocused ? colors.primary : colors.neutral30,
+    borderColor: isFocused ? colors.primary : colors.ctrlBgColorFocusHover,
   },
 });
 

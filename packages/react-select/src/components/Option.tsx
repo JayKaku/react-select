@@ -49,7 +49,7 @@ export const optionCSS = <
   backgroundColor: isSelected
     ? colors.primary
     : isFocused
-    ? colors.primary25
+    ? colors.optionBgColorFocus
     : 'transparent',
   color: isDisabled
     ? colors.neutral20
@@ -69,7 +69,7 @@ export const optionCSS = <
     backgroundColor: !isDisabled
       ? isSelected
         ? colors.primary
-        : colors.primary50
+        : colors.optionBgColorActive
       : undefined,
   },
 });

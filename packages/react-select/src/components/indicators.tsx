@@ -79,13 +79,13 @@ const baseCSS = <
   | DropdownIndicatorProps<Option, IsMulti, Group>
   | ClearIndicatorProps<Option, IsMulti, Group>): CSSObjectWithLabel => ({
   label: 'indicatorContainer',
-  color: isFocused ? colors.neutral60 : colors.neutral20,
+  color: isFocused ? colors.indicatorColorFocus : colors.neutral20,
   display: 'flex',
   padding: baseUnit * 2,
   transition: 'color 150ms',
 
   ':hover': {
-    color: isFocused ? colors.neutral80 : colors.neutral40,
+    color: isFocused ? colors.inputTextColor : colors.neutral40,
   },
 });
 
@@ -226,7 +226,7 @@ export const loadingIndicatorCSS = <
   },
 }: LoadingIndicatorProps<Option, IsMulti, Group>): CSSObjectWithLabel => ({
   label: 'loadingIndicator',
-  color: isFocused ? colors.neutral60 : colors.neutral20,
+  color: isFocused ? colors.indicatorColorFocus : colors.neutral20,
   display: 'flex',
   padding: baseUnit * 2,
   transition: 'color 150ms',

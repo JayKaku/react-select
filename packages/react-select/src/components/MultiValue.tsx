@@ -59,7 +59,7 @@ export const multiValueLabelCSS = <
   cropWithEllipsis,
 }: MultiValueProps<Option, IsMulti, Group>): CSSObjectWithLabel => ({
   borderRadius: borderRadius / 2,
-  color: colors.neutral80,
+  color: colors.inputTextColor,
   fontSize: '85%',
   overflow: 'hidden',
   padding: 3,

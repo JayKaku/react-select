@@ -36,8 +36,8 @@ export type OnChangeValue<
 interface Colors {
   primary: string;
   primary75: string;
-  primary50: string;
-  primary25: string;
+  optionBgColorActive: string;
+  optionBgColorFocus: string;
 
   danger: string;
   dangerLight: string;
@@ -46,12 +46,12 @@ interface Colors {
   neutral5: string;
   neutral10: string;
   neutral20: string;
-  neutral30: string;
+  ctrlBgColorFocusHover: string;
   neutral40: string;
-  neutral50: string;
-  neutral60: string;
+  placeholderColor: string;
+  indicatorColorFocus: string;
   neutral70: string;
-  neutral80: string;
+  inputTextColor: string;
   neutral90: string;
 }
 

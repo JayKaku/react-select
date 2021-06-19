@@ -12,7 +12,7 @@ export default () => (
       borderRadius: 0,
       colors: {
         ...theme.colors,
-        primary25: 'hotpink',
+        optionBgColorFocus: 'hotpink',
         primary: 'black',
       },
     })}
