@@ -119,6 +119,17 @@ Check the docs for more information on:
 - [Allowing users to create new options](https://www.react-select.com/creatable)
 - [Advanced use-cases](https://www.react-select.com/advanced)
 
+## Custom theme names
+
+- neutral30 -> ctrlBgColorFocusHover
+- neutral50 -> placeholderColor
+- neutral60 -> indicatorColorFocus
+- neutral80 -> inpuTextColor
+- primary25 -> optionBgColorFocus
+- primary50 -> optionBgColorActive
+
+For more details see [here](https://github.com/JedWatson/react-select/issues/3692)
+
 # Thanks
 
 Thank you to everyone who has contributed to this project. It's been a wild ride.
